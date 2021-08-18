@@ -64,7 +64,7 @@ def main():
 			st.image(our_image)
 			animal=predict_the_image("gotimage.jpg")
 			st.subheader("Animal in the Image: "+animal)
-			# sendMessage(animal)
+			sendMessage(animal)
 			st.text("Message sent to farmer")
 
 
